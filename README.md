@@ -1,4 +1,4 @@
-# PGM_modeling_BilevelOptimization
+# PGM modeling BilevelOptimization
 PGM assistive device modeling and bilevel optimization
 
 In this repository, we provide a simulation framework to calibrate muscle-tendon parameters based on prior recorded data and simulate muscle-tendon dynamics based on the assistive moment using PGM exoskeleton assistance. This framework uses trajectory optimization to simulate muscle dynamics and solve muscle redundancy.
