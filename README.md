@@ -1,9 +1,5 @@
-# Soft Pneumatic gel muscle (PGM)based Assistive device modeling BilevelOptimization
-PGM assistive device modeling and bilevel optimization
+# Soft Pneumatic gel muscle (PGM) based assistive device modeling and Bilevel optimization simulation framework 
 
-In this repository, we provide a simulation framework to calibrate muscle-tendon parameters based on prior recorded data and simulate muscle-tendon dynamics based on the assistive moment using PGM exoskeleton assistance. This framework uses trajectory optimization to simulate muscle dynamics and solve muscle redundancy.
+Our simulation framework uses calibrated muscle-tendon parameters and simulates optimal assistive moment and its corresponding muscle-tendon dynamics interaction. This framework uses trajectory optimization to simulate muscle dynamics and solve muscle redundancy. The inputs are a scaled musculoskeletal model computed from OpenSim and additional inverse kinematics and dynamics solutions, depending on the simulation objectives. In this repository, we provide a simulation framework for estimating the assistive moment using PGM exoskeleton assistance. 
 
-# Simulation framework
-Our simulation framework calibrates muscle-tendon parameters and simulates optimal assistive moment and its corresponding muscle-tendon dynamics interaction. The inputs are a scaled musculoskeletal model computed from OpenSim and additional inverse kinematics and dynamics solutions, depending on the simulation objectives.
-
-We provide a scaled musculoskeletal model and motion data: inverse kinematics, inverse dynamics, of a subject walking at a preferred speed. Digitalized data is also provided. Please take a look at our studies for more details.
+We provide a scaled musculoskeletal model and motion data: inverse kinematics, inverse dynamics, of a subject walking at different speeds. Digitalized data is also available upon request. Please read our publication for more details.
